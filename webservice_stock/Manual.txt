@@ -1,0 +1,21 @@
+Comandos e arquivos necessarios para utilizar a aplicação
+
+Passo 1 - Instale o composer
+
+Passo 2- Crie um arquivo chamado composer.json
+
+Passo 3 - Coloque a seguinte estrutura no arquivo composer.json
+	{
+	"require":{
+
+	},
+	"autoload":{
+		"psr-4":{
+			"Controllers\\":"Controllers/",
+			"Models\\":"Models/",
+			"Core\\":"Core/"
+		}
+	}
+}
+
+Passo 4 - Digite composer install
